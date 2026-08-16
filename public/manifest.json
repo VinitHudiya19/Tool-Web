@@ -1,0 +1,24 @@
+{
+  "name": "MicroTool — Free Online Tools Suite",
+  "short_name": "MicroTool",
+  "description": "100% free online calculators, developer utilities, PDF tools, image converters, and SEO generators.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "developer",
+    "productivity",
+    "finance",
+    "education"
+  ]
+}

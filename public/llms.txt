@@ -1,0 +1,118 @@
+# MicroTool — Free Online Tools Suite
+
+> MicroTool (https://www.quicktoolz.tech) is a 100% free, privacy-first web utility platform with 90+ browser-based tools. Every tool runs entirely client-side — no uploads, no server processing, no accounts required. Categories include calculators, developer tools, PDF tools, image tools, SEO tools, text tools, and business document generators.
+
+## Why MicroTool?
+- **Completely Free**: No paywalls, no sign-ups, no usage limits, no API keys.
+- **100% Private**: All processing happens locally in your browser using JavaScript. Your files and data are never uploaded to any server.
+- **Instant Results**: Zero network latency — everything processes on your device.
+- **No Installation**: Works in any modern web browser (Chrome, Firefox, Safari, Edge).
+- **Mobile Friendly**: Fully responsive — use every tool on phone, tablet, or desktop.
+
+## 🧮 Calculators (https://www.quicktoolz.tech/calculators)
+
+### Finance Calculators
+- **SIP Calculator** (https://www.quicktoolz.tech/calculators/finance/sip-calculator): A SIP calculator estimates the future value of Systematic Investment Plan contributions using compound interest. Enter monthly investment amount, expected annual return rate, and investment duration to get projected corpus, total invested amount, and wealth gained. Includes interactive month-by-month growth chart. Formula: M = P × ((1+i)^n - 1)/i × (1+i).
+- **EMI Calculator** (https://www.quicktoolz.tech/calculators/finance/emi-calculator): An EMI calculator computes your Equated Monthly Installment for home loans, car loans, and personal loans. Enter loan amount, interest rate, and tenure to get monthly payment, total interest, and a complete amortization schedule table. Formula: E = P × r × (1+r)^n / ((1+r)^n - 1).
+- **Loan Calculator** (https://www.quicktoolz.tech/calculators/finance/loan-calculator): A loan calculator breaks down total repayment into principal and interest components over time. Supports home loans, auto loans, education loans, and personal loans with customizable payment frequencies.
+- **Compound Interest Calculator** (https://www.quicktoolz.tech/calculators/finance/compound-interest-calculator): A compound interest calculator shows how money grows with daily, monthly, quarterly, or annual compounding. Enter principal, rate, time, and additional deposits to see year-by-year growth projections. Formula: A = P(1 + r/n)^(nt).
+- **ROI Calculator** (https://www.quicktoolz.tech/calculators/finance/roi-calculator): An ROI calculator measures return on investment as a percentage. Enter investment cost and current/final value to get ROI percentage, annualized returns, and total profit or loss. Formula: ROI = (Gain − Cost) / Cost × 100.
+- **Profit Margin Calculator** (https://www.quicktoolz.tech/calculators/finance/profit-margin-calculator): A profit margin calculator determines gross margin, operating margin, and net profit margin from revenue and cost figures. Also calculates markup percentage. Used by businesses, accountants, and ecommerce sellers.
+- **Retirement Calculator** (https://www.quicktoolz.tech/calculators/finance/retirement-calculator): A retirement calculator estimates how much money you need to retire comfortably. Enter current age, retirement age, monthly expenses, expected inflation, and investment returns to get required retirement corpus and monthly savings target.
+- **Net Worth Calculator** (https://www.quicktoolz.tech/calculators/finance/net-worth-calculator): A net worth calculator computes total assets minus total liabilities. Add bank accounts, investments, real estate, vehicles, credit card debt, loans, and mortgages to see your complete financial position.
+- **SWP Calculator** (https://www.quicktoolz.tech/calculators/finance/swp-calculator): A SWP calculator projects systematic withdrawal plan outcomes. Enter initial investment, monthly withdrawal amount, expected return rate, and duration to see remaining corpus and total withdrawals over time.
+- **Break-Even Calculator** (https://www.quicktoolz.tech/calculators/finance/break-even-calculator): A break-even calculator determines the sales volume needed to cover all costs. Enter fixed costs, variable cost per unit, and selling price per unit to get break-even units, break-even revenue, and contribution margin.
+
+### Health Calculators
+- **BMI Calculator** (https://www.quicktoolz.tech/calculators/health/bmi-calculator): A BMI calculator computes Body Mass Index from height and weight using the formula BMI = weight(kg) / height(m)². Supports both metric and imperial units. Shows WHO categories (Underweight, Normal, Overweight, Obese) and Asian BMI thresholds.
+- **Calorie Calculator** (https://www.quicktoolz.tech/calculators/health/calorie-calculator): A calorie calculator estimates daily calorie needs using the Mifflin-St Jeor equation for BMR, multiplied by activity level. Shows maintenance, weight loss, and weight gain calorie targets with macronutrient breakdown.
+
+### Education Calculators
+- **CGPA Calculator** (https://www.quicktoolz.tech/calculators/education/cgpa-calculator): A CGPA calculator converts semester GPAs and credit hours into cumulative grade point average on a 10-point scale. Includes CGPA-to-percentage conversion formulas for Indian universities (Anna University, VTU, Mumbai University, JNTU).
+- **GPA Calculator** (https://www.quicktoolz.tech/calculators/education/gpa-calculator): A GPA calculator computes grade point average from course grades and credit hours. Supports 4.0 scale (US), percentage-based grading, and letter grade inputs. Used by high school and college students.
+
+### Other
+- **Age Calculator** (https://www.quicktoolz.tech/calculators/age-calculator): An age calculator computes exact age in years, months, days, hours, and minutes from any date of birth. Also shows days until next birthday, day of birth (e.g., Tuesday), and total days lived.
+- **Typing Test** (https://www.quicktoolz.tech/typing-test): A typing test measures your typing speed in words per minute (WPM) and accuracy percentage. Choose from 15-second, 30-second, 60-second, or 120-second test durations with random word sets.
+
+## 💻 Developer Tools (https://www.quicktoolz.tech/developer-tools)
+- **JSON Viewer & Formatter** (https://www.quicktoolz.tech/developer-tools/json-viewer): A JSON viewer and formatter that validates, prettifies, minifies, and tree-views JSON data. Supports syntax highlighting, collapsible nodes, and search within JSON structures. Handles large files up to 10MB.
+- **JSON Compare** (https://www.quicktoolz.tech/developer-tools/json-compare): A JSON compare tool that shows side-by-side differences between two JSON objects. Highlights added, removed, and modified keys with color-coded diff output.
+- **CSV to JSON Converter** (https://www.quicktoolz.tech/developer-tools/csv-to-json): A CSV to JSON converter that transforms comma-separated data into structured JSON arrays or objects. Auto-detects delimiters (comma, semicolon, tab) and handles quoted fields.
+- **JSON to CSV Converter** (https://www.quicktoolz.tech/developer-tools/json-to-csv): A JSON to CSV converter that flattens nested JSON objects into downloadable CSV spreadsheet format. Handles arrays, nested objects, and mixed data types.
+- **SQL Formatter** (https://www.quicktoolz.tech/developer-tools/sql-formatter): A SQL formatter that beautifies and indents raw SQL queries. Supports MySQL, PostgreSQL, SQL Server, Oracle, and SQLite dialects with uppercase keyword formatting.
+- **HTML Formatter** (https://www.quicktoolz.tech/developer-tools/html-formatter): An HTML formatter that prettifies, minifies, and validates HTML markup. Includes live preview rendering, tag balancing, and indent customization (2 or 4 spaces, tabs).
+- **CSS Formatter** (https://www.quicktoolz.tech/developer-tools/css-formatter): A CSS formatter that beautifies compressed CSS and SCSS stylesheets. Also minifies CSS to reduce file size. Supports custom indentation and brace styles.
+- **JavaScript Formatter** (https://www.quicktoolz.tech/developer-tools/javascript-formatter): A JavaScript formatter that pretty-prints minified JS and TypeScript code. Supports ES6+ syntax, JSX, and configurable brace/quote styles.
+- **XML Formatter** (https://www.quicktoolz.tech/developer-tools/xml-formatter): An XML formatter that prettifies and validates XML documents. Shows tree structure, highlights syntax errors, and supports custom indentation.
+- **Unix Timestamp Converter** (https://www.quicktoolz.tech/developer-tools/unix-timestamp-converter): A Unix timestamp converter that translates epoch seconds and milliseconds to human-readable UTC and local date-time strings, and vice versa. Shows current timestamp in real time.
+- **Base64 Encoder / Decoder** (https://www.quicktoolz.tech/developer-tools/base64-encoder): A Base64 encoder and decoder that converts text strings and binary data to and from Base64 encoding. Useful for embedding images in CSS, encoding API credentials, and debugging data payloads.
+- **URL Encoder / Decoder** (https://www.quicktoolz.tech/developer-tools/url-encoder): A URL encoder and decoder that percent-encodes special characters in URLs and query strings, or decodes encoded URLs back to readable text. Essential for web development and API work.
+- **Hash Generator** (https://www.quicktoolz.tech/developer-tools/hash-generator): A hash generator that computes MD5, SHA-1, SHA-256, and SHA-512 cryptographic hashes from any text input. Used for data integrity verification, password hashing reference, and checksum generation.
+- **UUID Generator** (https://www.quicktoolz.tech/developer-tools/uuid-generator): A UUID generator that creates version 4 (random) universally unique identifiers. Generate single or bulk UUIDs with one-click copy. Follows RFC 4122 specification.
+- **QR Code Generator** (https://www.quicktoolz.tech/developer-tools/qr-code-generator): A QR code generator that creates custom QR codes for URLs, text, WiFi credentials, email addresses, phone numbers, and vCards. Customize colors, size, and download as PNG or SVG.
+- **Barcode Generator** (https://www.quicktoolz.tech/developer-tools/barcode-generator): A barcode generator that creates Code 128, EAN-13, UPC-A, Code 39, and ITF barcodes. Enter any value, customize bar width and height, and download as PNG or SVG.
+- **Duplicate Row Remover** (https://www.quicktoolz.tech/developer-tools/duplicate-row-remover): A duplicate row remover that strips repeated lines from text, CSV data, and code. Supports case-sensitive and case-insensitive matching with sort options.
+- **CSS Flexbox Generator** (https://www.quicktoolz.tech/developer-tools/flexbox-generator): A CSS flexbox generator with visual drag-and-drop controls. Set flex-direction, justify-content, align-items, flex-wrap, and gap values while previewing the layout in real time. Generates copy-ready CSS code.
+- **CSS Grid Generator** (https://www.quicktoolz.tech/developer-tools/css-grid-generator): A CSS grid generator that lets you visually define grid rows, columns, gaps, and template areas. Preview the 2D layout live and export production-ready CSS grid code.
+
+## 📄 PDF Tools (https://www.quicktoolz.tech/pdf-tools)
+- **Merge PDF** (https://www.quicktoolz.tech/pdf-tools/merge-pdf): A PDF merger that combines multiple PDF documents into a single file. Drag and drop to reorder pages before merging. Supports unlimited files with no size restrictions. Processing happens entirely in your browser.
+- **Split PDF** (https://www.quicktoolz.tech/pdf-tools/split-pdf): A PDF splitter that separates a multi-page PDF into individual single-page files or custom page ranges. Select specific pages to extract or split every N pages.
+- **Compress PDF** (https://www.quicktoolz.tech/pdf-tools/compress-pdf): A PDF compressor that reduces PDF file size while maintaining visual quality. Choose compression levels (low, medium, high) to balance size reduction and clarity. Ideal for email attachments and web uploads.
+- **Edit PDF** (https://www.quicktoolz.tech/pdf-tools/edit-pdf): A PDF editor that lets you add text annotations, freehand drawings, highlights, and sticky notes to PDF documents. No software installation required — edit directly in your browser.
+- **Extract PDF Pages** (https://www.quicktoolz.tech/pdf-tools/extract-pdf-pages): A PDF page extractor that lets you select and save individual pages or page ranges from a PDF document as a new file.
+- **Delete PDF Pages** (https://www.quicktoolz.tech/pdf-tools/delete-pdf-pages): A PDF page deleter that removes unwanted pages from PDF documents. Preview all pages, select pages to delete, and download the cleaned PDF. Includes automatic blank page detection.
+- **Protect PDF** (https://www.quicktoolz.tech/pdf-tools/protect-pdf): A PDF protector that encrypts PDF files with AES-256 password security. Set owner and user passwords, restrict printing, copying, and editing permissions.
+- **Unlock PDF** (https://www.quicktoolz.tech/pdf-tools/unlock-pdf): A PDF unlocker that removes password protection from PDFs you own. Enter the existing password to decrypt and save an unlocked copy.
+- **PDF to JPG** (https://www.quicktoolz.tech/pdf-tools/pdf-to-jpg): A PDF to JPG converter that renders each PDF page as a high-resolution JPEG image. Set custom DPI (72–300) and quality levels. Download individual page images or all pages as a ZIP archive.
+- **JPG to PDF** (https://www.quicktoolz.tech/pdf-tools/jpg-to-pdf): A JPG to PDF converter that combines JPEG, PNG, and WebP images into a formatted PDF document. Set page size (A4, Letter, Legal), orientation, and margins. Reorder images before conversion.
+
+## 🖼️ Image Tools (https://www.quicktoolz.tech/image-tools)
+- **Image Compressor** (https://www.quicktoolz.tech/image-tools/image-compressor): An image compressor that reduces JPEG, PNG, and WebP file sizes without visible quality loss. Adjust compression quality slider from 1–100. Batch compress multiple images simultaneously. Shows before/after file size comparison.
+- **Image Resizer** (https://www.quicktoolz.tech/image-tools/image-resizer): An image resizer that scales image dimensions by pixels or percentage. Lock aspect ratio to prevent distortion. Supports preset sizes for social media (Instagram, Facebook, Twitter) and common web dimensions.
+- **Image Converter** (https://www.quicktoolz.tech/image-tools/image-converter): An image format converter that transforms images between JPG, PNG, WebP, GIF, BMP, and TIFF formats. Batch convert multiple files with custom quality settings.
+- **WebP Converter** (https://www.quicktoolz.tech/image-tools/webp-converter): A WebP converter that converts JPG, PNG, GIF, and BMP images to Google's WebP format for faster web loading. WebP images are typically 25–35% smaller than JPEG at equivalent quality.
+- **AVIF Converter** (https://www.quicktoolz.tech/image-tools/avif-converter): An AVIF converter that transforms images to the next-generation AVIF format. AVIF offers 50% better compression than JPEG and superior quality at lower file sizes. Ideal for modern web performance optimization.
+- **SVG to PNG** (https://www.quicktoolz.tech/image-tools/svg-to-png): An SVG to PNG converter that renders vector SVG files into high-resolution raster PNG images. Set custom output dimensions (width × height) and background color (transparent or solid).
+- **SVG Optimizer** (https://www.quicktoolz.tech/image-tools/svg-optimizer): An SVG optimizer that removes unnecessary metadata, comments, and redundant attributes from SVG files to reduce file size by 20–60%. Based on SVGO optimization rules.
+- **Image Cropper** (https://www.quicktoolz.tech/image-tools/image-cropper): An image cropper with visual crop area selection and preset aspect ratios (1:1, 4:3, 16:9, 3:2). Drag to position the crop zone and download the cropped result as JPG or PNG.
+- **Image Watermark** (https://www.quicktoolz.tech/image-tools/image-watermark): An image watermark tool that adds custom text or logo watermarks to photos. Control opacity, position, size, rotation, and font styling. Protect images from unauthorized use.
+- **Metadata Remover** (https://www.quicktoolz.tech/image-tools/metadata-remover): An image metadata remover that strips EXIF data, GPS coordinates, camera model, and other embedded metadata from photos. Protects privacy before sharing images online.
+- **Color Picker** (https://www.quicktoolz.tech/image-tools/color-picker): A color picker that extracts colors from uploaded images. Click anywhere on the image to get exact HEX, RGB, and HSL color values. Also generates dominant color palettes from photos.
+- **ICO Generator** (https://www.quicktoolz.tech/image-tools/ico-generator): An ICO file generator that creates multi-size favicon.ico files from any image. Generates standard sizes (16×16, 32×32, 48×48, 64×64) in a single .ico file for website favicons.
+
+## 🔍 SEO Tools (https://www.quicktoolz.tech/seo-tools)
+- **Schema Generator** (https://www.quicktoolz.tech/seo-tools/schema-generator): A JSON-LD schema markup generator supporting 14+ schema types including Article, Product, FAQ, HowTo, Organization, LocalBusiness, Event, Recipe, VideoObject, and more. Generate Google-valid structured data for rich search results.
+- **FAQ Schema Generator** (https://www.quicktoolz.tech/seo-tools/faq-schema-generator): An FAQ schema generator that creates FAQPage JSON-LD structured data from question-answer pairs. Add unlimited Q&A entries, validate the output, and copy the schema for your website's FAQ section.
+- **Breadcrumb Schema Generator** (https://www.quicktoolz.tech/seo-tools/breadcrumb-schema-generator): A breadcrumb schema generator that builds BreadcrumbList JSON-LD structured data. Add breadcrumb items with names and URLs to create valid schema markup for enhanced Google search navigation display.
+- **Meta Title Generator** (https://www.quicktoolz.tech/seo-tools/meta-title-generator): A meta title generator that creates 10 optimized title tag variations from your target keyword. Includes character count badges, Google SERP preview simulator, and best-practice length recommendations (50–60 characters).
+- **Meta Description Generator** (https://www.quicktoolz.tech/seo-tools/meta-description-generator): A meta description generator that produces compelling meta descriptions optimized for search click-through rates. Get 8 description variations with character count tracking (recommended 150–160 characters).
+- **Open Graph Generator** (https://www.quicktoolz.tech/seo-tools/open-graph-generator): An Open Graph tag generator that creates og:title, og:description, og:image, og:url, and og:type meta tags for Facebook, LinkedIn, and social media link previews. Copy the generated HTML meta tags directly.
+- **Twitter Card Generator** (https://www.quicktoolz.tech/seo-tools/twitter-card-generator): A Twitter Card tag generator that creates summary and summary_large_image card meta tags. Preview how your link will appear when shared on Twitter/X and copy the HTML tags.
+- **Robots.txt Generator** (https://www.quicktoolz.tech/seo-tools/robots-txt-generator): A robots.txt generator that builds standard robots.txt directives. Add user-agent rules, allow/disallow paths, crawl-delay settings, and sitemap references. Download the generated file.
+- **Sitemap Generator** (https://www.quicktoolz.tech/seo-tools/sitemap-generator): An XML sitemap generator that creates valid sitemap.xml files for search engine indexing. Add URLs with priority, change frequency, and last modified dates. Supports up to 50,000 URLs per sitemap.
+- **Canonical Tag Checker** (https://www.quicktoolz.tech/seo-tools/canonical-tag-checker): A canonical tag checker that analyzes any web page's canonical URL setup. Detects missing canonical tags, self-referencing canonicals, and mismatched canonical URLs to prevent duplicate content issues.
+
+## 📝 Text Tools (https://www.quicktoolz.tech/text-tools)
+- **Word Counter** (https://www.quicktoolz.tech/text-tools/word-counter): A word counter that counts words, characters (with and without spaces), sentences, paragraphs, and lines in real time. Also shows estimated reading time (at 200 WPM) and speaking time (at 130 WPM) with keyword density analysis.
+- **Character Counter** (https://www.quicktoolz.tech/text-tools/character-counter): A character counter that provides detailed character analysis including total characters, characters without spaces, letter count, digit count, special character count, and byte size. Useful for Twitter/X posts, meta descriptions, and SMS messages.
+- **Case Converter** (https://www.quicktoolz.tech/text-tools/case-converter): A text case converter that transforms text between UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case, and URL slug formats. Paste or type text for instant conversion.
+
+## 💼 Business Tools (https://www.quicktoolz.tech/business-tools)
+- **Invoice Generator** (https://www.quicktoolz.tech/business-tools/invoice-generator): An invoice generator that creates professional PDF invoices with custom branding, line items, tax calculations, and payment terms. Add your logo, company details, and client information. Download or print the invoice directly.
+- **Quote Generator** (https://www.quicktoolz.tech/business-tools/quote-generator): A quote generator that creates formal PDF price estimates and quotations for clients. Add itemized services, pricing, validity dates, and terms & conditions. Professional templates for freelancers and businesses.
+- **Receipt Generator** (https://www.quicktoolz.tech/business-tools/receipt-generator): A receipt generator that builds printable payment receipts with transaction details, payment method, and PAID watermark. Useful for freelancers, small businesses, and service providers.
+
+## Technical Details
+- **Built with**: Next.js, TypeScript, React (client-side rendering for all tools)
+- **Privacy**: Zero server uploads. All file processing, calculations, and conversions happen in the browser.
+- **Performance**: No network latency. Instant processing on user's device.
+- **Accessibility**: WAI-ARIA compliant markup, keyboard navigable, screen reader compatible.
+- **Mobile**: Fully responsive design works on all screen sizes.
+
+## Crawling & Indexing
+- Sitemap: https://www.quicktoolz.tech/sitemap.xml
+- Robots: https://www.quicktoolz.tech/robots.txt
+- LLMs Full: https://www.quicktoolz.tech/llms-full.txt
+- AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Applebot-Extended) are explicitly allowed.

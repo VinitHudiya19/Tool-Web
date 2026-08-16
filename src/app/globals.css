@@ -1,26 +1,199 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #FFFFFF;
+  --hero-bg: #FAFAFF;
+  --surface: #F5F5F7;
+  --border: #E5E7EB;
+  --text: #111827;
+  --text-2: #4B5563;
+  --primary: #4F46E5;
+  --primary-h: #4338CA;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-full: 999px;
+
+  --duration: 200ms;
+  --easing: ease-out;
+
+  /* Category colors */
+  --color-calculators: #0d9488;
+  --color-calculators-bg: rgba(13, 148, 136, 0.08);
+  --color-calculators-border: rgba(13, 148, 136, 0.15);
+
+  --color-developer-tools: #7c3aed;
+  --color-developer-tools-bg: rgba(124, 58, 237, 0.08);
+  --color-developer-tools-border: rgba(124, 58, 237, 0.15);
+
+  --color-seo-tools: #ea580c;
+  --color-seo-tools-bg: rgba(234, 88, 12, 0.08);
+  --color-seo-tools-border: rgba(234, 88, 12, 0.15);
+
+  --color-text-tools: #2563eb;
+  --color-text-tools-bg: rgba(37, 99, 235, 0.08);
+  --color-text-tools-border: rgba(37, 99, 235, 0.15);
+
+  --color-data-tools: #059669;
+  --color-data-tools-bg: rgba(5, 150, 105, 0.08);
+  --color-data-tools-border: rgba(5, 150, 105, 0.15);
+
+  --color-pdf-tools: #dc2626;
+  --color-pdf-tools-bg: rgba(220, 38, 38, 0.08);
+  --color-pdf-tools-border: rgba(220, 38, 38, 0.15);
+
+  --color-image-tools: #d97706;
+  --color-image-tools-bg: rgba(217, 119, 6, 0.08);
+  --color-image-tools-border: rgba(217, 119, 6, 0.15);
+
+  /* PDF tool accent (coral) — DESIGN_SYSTEM.md category colour for PDF Tools.
+     Used only for chips, icon wrappers, active states and the primary action
+     button inside /pdf-tools. */
+  --pdf-accent: #993c1d;
+  --pdf-accent-hover: #7d3117;
+  --pdf-accent-soft: #f0997b;
+  --pdf-surface: #faece7;
+  --pdf-surface-strong: #f6ddd4;
+  --pdf-border: rgba(240, 153, 123, 0.45);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-bg: var(--bg);
+  --color-hero-bg: var(--hero-bg);
+  --color-surface: var(--surface);
+  --color-border-custom: var(--border);
+  --color-text-custom: var(--text);
+  --color-text-2: var(--text-2);
+  --color-primary: var(--primary);
+  --color-primary-h: var(--primary-h);
+
+  --shadow-custom-sm: var(--shadow-sm);
+  --shadow-custom-md: var(--shadow-md);
+  --shadow-custom-lg: var(--shadow-lg);
+
+  --radius-custom-sm: var(--radius-sm);
+  --radius-custom-md: var(--radius-md);
+  --radius-custom-full: var(--radius-full);
+
+  --color-pdf-accent: var(--pdf-accent);
+  --color-pdf-accent-hover: var(--pdf-accent-hover);
+  --color-pdf-accent-soft: var(--pdf-accent-soft);
+  --color-pdf-surface: var(--pdf-surface);
+  --color-pdf-surface-strong: var(--pdf-surface-strong);
+  --color-pdf-border: var(--pdf-border);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Global focus outlines for accessibility */
+*:focus-visible {
+  outline: 2px solid var(--primary) !important;
+  outline-offset: 2px !important;
 }
+
+/* Transition utility — border, bg, shadow, transform */
+.transition-custom {
+  transition-property: background-color, border-color, box-shadow, transform;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--easing);
+}
+
+/* Accordion animation style */
+.accordion-content {
+  transition: grid-template-rows var(--duration) var(--easing), padding var(--duration) var(--easing);
+}
+
+/* Accessibility Reduced Motion Rule */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Typing Test Custom Styles */
+.typing-area {
+  position: relative;
+  outline: none;
+}
+
+.caret {
+  position: absolute;
+  width: 2px;
+  background-color: #534AB7;
+  transition: left 80ms ease-out, top 80ms ease-out;
+  pointer-events: none;
+}
+
+/* Blinking caret when active typing stops */
+.caret:not(.active) {
+  animation: caret-blink 1s infinite steps(2, start);
+}
+
+@keyframes caret-blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.word {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.2s ease, background-color 0.2s ease;
+  user-select: none;
+}
+
+.word.incorrect-word {
+  border-bottom-color: #DC2626;
+}
+
+.char {
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+/* Confetti falls down */
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-10px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(450px) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.animate-confetti-fall {
+  animation: confetti-fall 3s linear forwards;
+}
+
+/* Results slide up animation */
+@keyframes slide-up {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
