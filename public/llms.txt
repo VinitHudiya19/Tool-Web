@@ -1,8 +1,8 @@
-# MicroTool — Free Online Tools Suite
+# QuickToolz — Free Online Tools Suite
 
-> MicroTool (https://www.quicktoolz.tech) is a 100% free, privacy-first web utility platform with 90+ browser-based tools. Every tool runs entirely client-side — no uploads, no server processing, no accounts required. Categories include calculators, developer tools, PDF tools, image tools, SEO tools, text tools, and business document generators.
+> QuickToolz (https://www.quicktoolz.tech) is a 100% free, privacy-first web utility platform with 90+ browser-based tools. Every tool runs entirely client-side — no uploads, no server processing, no accounts required. Categories include calculators, developer tools, PDF tools, image tools, SEO tools, text tools, and business document generators.
 
-## Why MicroTool?
+## Why QuickToolz?
 - **Completely Free**: No paywalls, no sign-ups, no usage limits, no API keys.
 - **100% Private**: All processing happens locally in your browser using JavaScript. Your files and data are never uploaded to any server.
 - **Instant Results**: Zero network latency — everything processes on your device.

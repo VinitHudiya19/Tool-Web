@@ -398,7 +398,7 @@ export default function HomePage() {
               <div className="text-center mb-10">
                 <div className="flex items-center justify-center gap-2 mb-1.5">
                   <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-                  <span className="text-[11px] font-extrabold uppercase tracking-widest text-primary">Why MicroTool</span>
+                  <span className="text-[11px] font-extrabold uppercase tracking-widest text-primary">Why QuickToolz</span>
                 </div>
                 <h2 className="text-center text-[28px] font-extrabold text-text-custom leading-tight tracking-tight">
                   Why Use Our Tools
@@ -476,13 +476,13 @@ export default function HomePage() {
                 </span>
               </div>
               <h2 className="text-[24px] font-extrabold text-text-custom tracking-tight mb-4">
-                What is MicroTool?
+                What is QuickToolz?
               </h2>
 
               {/* Answer-first: the opening sentence is a self-contained
                   definition, so it can be quoted without surrounding context. */}
               <p className="text-base font-normal text-text-custom leading-[1.8]">
-                MicroTool is a free collection of {TOTAL_TOOLS} online tools for
+                QuickToolz is a free collection of {TOTAL_TOOLS} online tools for
                 everyday tasks — calculators, PDF and image utilities, developer
                 formatters, SEO generators and text tools. There is no account,
                 no installation and no paid tier.
@@ -536,7 +536,7 @@ export default function HomePage() {
                   Frequently Asked Questions
                 </h2>
                 <p className="text-sm font-medium text-text-2 mt-1 text-center">
-                  Get immediate, exact details on how MicroTool handles data, pricing, and compatibility.
+                  Get immediate, exact details on how QuickToolz handles data, pricing, and compatibility.
                 </p>
               </div>
 

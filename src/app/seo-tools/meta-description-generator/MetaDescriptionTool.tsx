@@ -209,7 +209,7 @@ export default function MetaDescriptionTool() {
             id="brand"
             value={inputs.brand}
             onChange={(value) => update("brand", value)}
-            placeholder="MicroTool"
+            placeholder="QuickToolz"
           />
         </Field>
 
@@ -329,7 +329,7 @@ export default function MetaDescriptionTool() {
               id="preview-title"
               value={previewTitle}
               onChange={setPreviewTitle}
-              placeholder="PDF to Word Converter | MicroTool"
+              placeholder="PDF to Word Converter | QuickToolz"
             />
           </Field>
 

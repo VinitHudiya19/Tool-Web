@@ -489,7 +489,7 @@ export const FINANCE_CALCULATORS_3: Record<string, CalculatorConfig> = {
     faqs: [
       {
         id: "how-much",
-        question: "How much do I need to retire?",
+        question: "How is the retirement corpus figure worked out?",
         answer:
           "Divide your expected annual spending at retirement by a sustainable withdrawal rate. Spending £62,813 a year at a 4% rate requires about £1.57 million. The figure is only as good as those two assumptions.",
       },

@@ -1116,8 +1116,8 @@ export const TOOLS: Tool[] = [
 export const FAQS: FAQItem[] = [
   {
     id: "faq-1",
-    question: "What is MicroTool?",
-    answer: "MicroTool is a free collection of online tools for everyday tasks: calculators, PDF and image utilities, developer formatters, SEO generators and text tools. Nearly every tool runs directly in your browser, so your input is not uploaded anywhere.",
+    question: "What is QuickToolz?",
+    answer: "QuickToolz is a free collection of online tools for everyday tasks: calculators, PDF and image utilities, developer formatters, SEO generators and text tools. Nearly every tool runs directly in your browser, so your input is not uploaded anywhere.",
   },
   {
     id: "faq-2",

@@ -10,16 +10,16 @@ export const metadata: Metadata = {
     canonical: "https://www.quicktoolz.tech/calculators/health",
   },
   openGraph: {
-    title: "Health Calculators — BMI & Calorie Calculator | MicroTool",
+    title: "Health Calculators — BMI & Calorie Calculator | QuickToolz",
     description: "Calculate your Body Mass Index (BMI), BMR, daily calorie needs, and macronutrients online. Free health calculators with instant results.",
     url: "https://www.quicktoolz.tech/calculators/health",
-    siteName: "MicroTool",
+    siteName: "QuickToolz",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Health Calculators — BMI & Calorie Calculator | MicroTool",
+    title: "Health Calculators — BMI & Calorie Calculator | QuickToolz",
     description: "Calculate your Body Mass Index (BMI), BMR, daily calorie needs, and macronutrients online. Free health calculators with instant results.",
   },
 };

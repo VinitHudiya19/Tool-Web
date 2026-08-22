@@ -20,7 +20,7 @@ export const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.quicktoolz.tech"
 ).replace(/\/$/, "");
 
-export const SITE_NAME = "MicroTool";
+export const SITE_NAME = "QuickToolz";
 
 export interface SchemaFAQ {
   question: string;
@@ -209,32 +209,17 @@ export function buildDefinedTermSchema(input: {
   };
 }
 
-/**
- * A single question-and-answer pair promoted as the page's main entity.
+/*
+ * There is deliberately no QAPage builder here.
  *
- * FAQPage covers the secondary questions; this marks the one question the page
- * exists to answer, which is what a featured snippet is drawn from.
+ * QAPage describes a page where visitors submit competing answers to one
+ * question — a forum thread. That is why Google expects `author`,
+ * `datePublished` and `upvoteCount` on it, and why Search Console flags a
+ * QAPage that lacks them. A calculator page has no submitters, no post dates
+ * and no votes, so those fields could only be invented.
+ *
+ * The questions here are written and answered by the site, which is exactly
+ * what FAQPage is for. The page's primary question is emitted as the first
+ * entry of the FAQPage instead, so it still leads for a featured snippet
+ * without misdeclaring what kind of page this is.
  */
-export function buildPrimaryQuestionSchema(input: {
-  question: string;
-  answer: string;
-  path: string;
-}) {
-  const url = absoluteUrl(input.path);
-  return {
-    "@context": "https://schema.org",
-    "@type": "QAPage",
-    "@id": `${url}#primary-question`,
-    mainEntity: {
-      "@type": "Question",
-      name: input.question,
-      text: input.question,
-      answerCount: 1,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: input.answer,
-        url,
-      },
-    },
-  };
-}

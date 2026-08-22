@@ -7,7 +7,7 @@ import { getTotalToolCount } from "@/lib/categories/derive";
 // results always matches what the page actually lists.
 const TOTAL = getTotalToolCount();
 
-const description = `Browse all ${TOTAL} free online tools on MicroTool: calculators, developer utilities, PDF and image tools, SEO generators and text utilities. No sign-up.`;
+const description = `Browse all ${TOTAL} free online tools on QuickToolz: calculators, developer utilities, PDF and image tools, SEO generators and text utilities. No sign-up.`;
 
 export const metadata: Metadata = {
   title: `All Tools — ${TOTAL} Free Online Utilities`,
@@ -16,16 +16,16 @@ export const metadata: Metadata = {
     canonical: "https://www.quicktoolz.tech/all-tools",
   },
   openGraph: {
-    title: `All Tools — ${TOTAL} Free Online Utilities | MicroTool`,
+    title: `All Tools — ${TOTAL} Free Online Utilities | QuickToolz`,
     description,
     url: "https://www.quicktoolz.tech/all-tools",
-    siteName: "MicroTool",
+    siteName: "QuickToolz",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: `All Tools — ${TOTAL} Free Online Utilities | MicroTool`,
+    title: `All Tools — ${TOTAL} Free Online Utilities | QuickToolz`,
     description,
   },
 };

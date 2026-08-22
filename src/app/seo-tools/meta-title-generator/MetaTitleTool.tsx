@@ -191,7 +191,7 @@ export default function MetaTitleTool() {
             id="brand"
             value={inputs.brand}
             onChange={(value) => update("brand", value)}
-            placeholder="MicroTool"
+            placeholder="QuickToolz"
           />
         </Field>
 

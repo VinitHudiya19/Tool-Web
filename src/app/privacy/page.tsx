@@ -6,7 +6,7 @@ import { SITE } from "@/lib/site.config";
 
 const PATH = "/privacy";
 const DESCRIPTION =
-  "How MicroTool handles your data: every tool runs in your browser, what the server logs contain, and your privacy rights.";
+  "How QuickToolz handles your data: every tool runs in your browser, what the server logs contain, and your privacy rights.";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — What We Do With Your Data",

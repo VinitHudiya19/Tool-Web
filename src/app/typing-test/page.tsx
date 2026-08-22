@@ -37,16 +37,16 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   alternates: { canonical: absoluteUrl(PATH) },
   openGraph: {
-    title: `${TITLE} | MicroTool`,
+    title: `${TITLE} | QuickToolz`,
     description: DESCRIPTION,
     url: absoluteUrl(PATH),
-    siteName: "MicroTool",
+    siteName: "QuickToolz",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${TITLE} | MicroTool`,
+    title: `${TITLE} | QuickToolz`,
     description: DESCRIPTION,
   },
 };

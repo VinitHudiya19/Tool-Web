@@ -18,7 +18,7 @@ export default function Header() {
         <Link
           href="/"
           className="flex shrink-0 items-center gap-2.5 font-sans font-extrabold text-text-custom transition-custom hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
-          aria-label="MicroTool Homepage"
+          aria-label="QuickToolz Homepage"
         >
           {/* Logo Mark: Brand Accent Gradient Container */}
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-500 via-indigo-600 to-purple-600 text-white shadow-sm shadow-indigo-500/20">

@@ -9,7 +9,7 @@
 import { SITE_URL } from "@/lib/seo/schema";
 
 export const SITE = {
-  name: "MicroTool",
+  name: "QuickToolz",
   /** Derived from SITE_URL so the canonical host is defined in exactly one place. */
   url: SITE_URL,
   domain: SITE_URL.replace(/^https?:\/\//, ""),

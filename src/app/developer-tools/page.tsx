@@ -11,16 +11,16 @@ export const metadata: Metadata = {
     canonical: `https://www.quicktoolz.tech/${config.slug}`,
   },
   openGraph: {
-    title: `${config.title} | MicroTool`,
+    title: `${config.title} | QuickToolz`,
     description: config.description,
     url: `https://www.quicktoolz.tech/${config.slug}`,
-    siteName: "MicroTool",
+    siteName: "QuickToolz",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${config.title} | MicroTool`,
+    title: `${config.title} | QuickToolz`,
     description: config.description,
   },
 };

@@ -10,16 +10,16 @@ export const metadata: Metadata = {
     canonical: "https://www.quicktoolz.tech/calculators/education",
   },
   openGraph: {
-    title: "Education Calculators — GPA & CGPA Calculator | MicroTool",
+    title: "Education Calculators — GPA & CGPA Calculator | QuickToolz",
     description: "Calculate your GPA, CGPA, and grade point averages online. Free academic calculators for university and college students.",
     url: "https://www.quicktoolz.tech/calculators/education",
-    siteName: "MicroTool",
+    siteName: "QuickToolz",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Education Calculators — GPA & CGPA Calculator | MicroTool",
+    title: "Education Calculators — GPA & CGPA Calculator | QuickToolz",
     description: "Calculate your GPA, CGPA, and grade point averages online. Free academic calculators for university and college students.",
   },
 };

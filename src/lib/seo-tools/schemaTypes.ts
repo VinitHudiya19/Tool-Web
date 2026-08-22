@@ -45,7 +45,7 @@ export const SCHEMA_TYPES: SchemaTypeDefinition[] = [
       }),
       text("description", "Description", { type: "textarea", placeholder: "A short summary of the article." }),
       text("authorName", "Author name", { required: true, placeholder: "Jane Doe" }),
-      text("publisherName", "Publisher name", { placeholder: "MicroTool" }),
+      text("publisherName", "Publisher name", { placeholder: "QuickToolz" }),
       text("datePublished", "Date published", { required: true, type: "date" }),
       text("dateModified", "Date modified", { type: "date" }),
       text("image", "Image URL", { type: "url", placeholder: "https://example.com/cover.jpg" }),

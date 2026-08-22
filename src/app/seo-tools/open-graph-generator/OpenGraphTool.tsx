@@ -218,7 +218,7 @@ export default function OpenGraphTool() {
             id="og-site"
             value={inputs.siteName}
             onChange={(value) => update("siteName", value)}
-            placeholder="MicroTool"
+            placeholder="QuickToolz"
           />
         </Field>
 

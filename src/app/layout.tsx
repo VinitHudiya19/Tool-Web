@@ -12,8 +12,8 @@ const inter = { variable: "font-sans" };
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.quicktoolz.tech"),
   title: {
-    default: "MicroTool — 73 Free Online Tools, No Sign-up",
-    template: "%s | MicroTool",
+    default: "QuickToolz — 73 Free Online Tools, No Sign-up",
+    template: "%s | QuickToolz",
   },
   description:
     `${TOTAL_TOOLS} free online tools — calculators, PDF, image, SEO, text and developer utilities. No sign-up, and every tool runs in your browser.`,
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     "uuid generator",
     "typing test",
   ],
-  authors: [{ name: "MicroTool Team" }],
-  creator: "MicroTool",
-  publisher: "MicroTool",
+  authors: [{ name: "QuickToolz Team" }],
+  creator: "QuickToolz",
+  publisher: "QuickToolz",
   robots: {
     index: true,
     follow: true,
@@ -61,14 +61,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.quicktoolz.tech",
-    siteName: "MicroTool",
-    title: "MicroTool — Free Online Calculators, Developer Tools & Converters",
+    siteName: "QuickToolz",
+    title: "QuickToolz — Free Online Calculators, Developer Tools & Converters",
     description:
       `${TOTAL_TOOLS} free online tools: calculators, JSON formatters, PDF merge & compress, image converters, SEO schema generators and text utilities. No sign-up.`,
   },
   twitter: {
     card: "summary_large_image",
-    title: `MicroTool — ${TOTAL_TOOLS} Free Online Tools | Calculators, PDF & Dev Tools`,
+    title: `QuickToolz — ${TOTAL_TOOLS} Free Online Tools | Calculators, PDF & Dev Tools`,
     description: `${TOTAL_TOOLS} free online tools: calculators, JSON formatters, PDF merge & compress, image converters, SEO schema generators and text utilities. No sign-up.`,
   },
 };
@@ -85,10 +85,10 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": "https://www.quicktoolz.tech#website",
-  name: "MicroTool",
+  name: "QuickToolz",
   url: "https://www.quicktoolz.tech",
   publisher: { "@id": "https://www.quicktoolz.tech#organization" },
-  description: `MicroTool is a free online utility platform with ${TOTAL_TOOLS} tools: calculators, developer utilities, PDF tools, image converters, SEO generators, text tools and business document generators. Every tool runs locally in your browser.`,
+  description: `QuickToolz is a free online utility platform with ${TOTAL_TOOLS} tools: calculators, developer utilities, PDF tools, image converters, SEO generators, text tools and business document generators. Every tool runs locally in your browser.`,
   potentialAction: {
     "@type": "SearchAction",
     target: "https://www.quicktoolz.tech/all-tools?q={search_term_string}",
@@ -100,7 +100,7 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://www.quicktoolz.tech#organization",
-  name: "MicroTool",
+  name: "QuickToolz",
   url: "https://www.quicktoolz.tech",
   logo: "https://www.quicktoolz.tech/logo.png",
   email: SITE.contactEmail,
@@ -110,7 +110,7 @@ const organizationSchema = {
     email: SITE.contactEmail,
     availableLanguage: "English",
   },
-  description: `MicroTool provides ${TOTAL_TOOLS} free, privacy-first online tools. Calculators, developer tools, PDF tools, image converters, SEO generators, text utilities and business document generators.`,
+  description: `QuickToolz provides ${TOTAL_TOOLS} free, privacy-first online tools. Calculators, developer tools, PDF tools, image converters, SEO generators, text utilities and business document generators.`,
   sameAs: [],
 };
 

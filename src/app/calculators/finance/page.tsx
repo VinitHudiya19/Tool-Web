@@ -10,16 +10,16 @@ export const metadata: Metadata = {
     canonical: "https://www.quicktoolz.tech/calculators/finance",
   },
   openGraph: {
-    title: "Financial Calculators — EMI, SIP, Loan & ROI | MicroTool",
+    title: "Financial Calculators — EMI, SIP, Loan & ROI | QuickToolz",
     description: "Calculate EMI, SIP returns, loan interest, compound interest, net worth, and ROI online. Free, fast financial calculators with chart visualizations.",
     url: "https://www.quicktoolz.tech/calculators/finance",
-    siteName: "MicroTool",
+    siteName: "QuickToolz",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Financial Calculators — EMI, SIP, Loan & ROI | MicroTool",
+    title: "Financial Calculators — EMI, SIP, Loan & ROI | QuickToolz",
     description: "Calculate EMI, SIP returns, loan interest, compound interest, net worth, and ROI online. Free, fast financial calculators with chart visualizations.",
   },
 };

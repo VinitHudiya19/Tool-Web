@@ -17,7 +17,7 @@ export default function Footer() {
               <Link
                 href="/"
                 className="flex items-center gap-2.5 font-sans font-extrabold text-text-custom transition-custom hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
-                aria-label="MicroTool Homepage"
+                aria-label="QuickToolz Homepage"
               >
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white border border-border-custom text-primary shadow-sm">
                   <Terminal size={16} />
@@ -236,7 +236,7 @@ export default function Footer() {
         <div className="mt-16 border-t border-border-custom/80 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex flex-col gap-1 text-center sm:text-left">
             <div className="text-xs text-text-2 font-medium">
-              &copy; {currentYear} MicroTool. All rights reserved. Calculations are client-side only.
+              &copy; {currentYear} QuickToolz. All rights reserved. Calculations are client-side only.
             </div>
             <div className="text-[11px] text-text-2/80">
               Last updated: June 20, 2026 &bull; Search indexed &amp; verified.

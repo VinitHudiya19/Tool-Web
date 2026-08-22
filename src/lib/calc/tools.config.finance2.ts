@@ -685,7 +685,7 @@ export const FINANCE_CALCULATORS_2: Record<string, CalculatorConfig> = {
     faqs: [
       {
         id: "difference",
-        question: "What is the difference between margin and markup?",
+        question: "How do I convert a markup percentage into a margin?",
         answer:
           "Margin measures profit against the selling price; markup measures it against cost. On an item costing £40 sold at £100, the margin is 60% and the markup 150%. Markup is always larger for a profitable sale.",
       },

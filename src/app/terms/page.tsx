@@ -6,10 +6,10 @@ import { SITE } from "@/lib/site.config";
 
 const PATH = "/terms";
 const DESCRIPTION =
-  "The terms for using MicroTool: what you may do with the tools and their output, what we do and do not guarantee, and the limits of our liability.";
+  "The terms for using QuickToolz: what you may do with the tools and their output, what we do and do not guarantee, and the limits of our liability.";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Using MicroTool",
+  title: "Terms of Service — Using QuickToolz",
   description: DESCRIPTION,
   alternates: { canonical: `${SITE.url}${PATH}` },
   openGraph: {

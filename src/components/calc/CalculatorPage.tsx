@@ -31,7 +31,6 @@ import {
   buildDefinedTermSchema,
   buildFAQPageSchema,
   buildHowToSchema,
-  buildPrimaryQuestionSchema,
   buildSoftwareApplicationSchema,
   buildSpeakableSchema,
   buildWebPageSchema,
@@ -51,10 +50,10 @@ const GROUP_LABELS: Record<string, string> = {
  * previous pages were single client components of a thousand lines or more, so
  * the entire article had to be parsed and executed before it existed.
  *
- * Eight schema blocks are emitted. The five standard ones cover ranking; the
- * three additions target answer and generative engines specifically —
- * `DefinedTerm` states what the concept is, `QAPage` marks the single question
- * the page answers, and `speakable` names the passage worth reading aloud.
+ * Seven schema blocks are emitted. The five standard ones cover ranking; the
+ * two additions target answer and generative engines specifically —
+ * `DefinedTerm` states what the concept is, and `speakable` names the passage
+ * worth reading aloud.
  */
 export default function CalculatorPage({
   slug,
@@ -93,16 +92,16 @@ export default function CalculatorPage({
       path,
       steps: config.steps,
     }),
+    // The primary question leads, so a featured snippet has the direct answer
+    // first. It sits inside FAQPage rather than a separate QAPage, because the
+    // questions here are written and answered by the site.
     buildFAQPageSchema(
-      config.faqs.map(({ question, answer }) => ({ question, answer })),
+      [
+        { question: config.primaryQuestion, answer: config.quickAnswer },
+        ...config.faqs.map(({ question, answer }) => ({ question, answer })),
+      ],
       path,
     ),
-    // Answer- and generative-engine specific.
-    buildPrimaryQuestionSchema({
-      question: config.primaryQuestion,
-      answer: config.quickAnswer,
-      path,
-    }),
     buildDefinedTermSchema({
       term: config.term,
       definition: config.termDefinition,
